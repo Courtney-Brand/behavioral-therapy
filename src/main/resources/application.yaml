@@ -1,0 +1,15 @@
+spring: 
+   datasource:
+      username: behavioral_therapy
+      password: behavioral_therapy
+      url: jdbc:mysql://localhost:3306/behavioral_therapy
+           
+   jpa:
+      hibernate:
+         ddl-auto: update
+      show-sql: true
+      defer-datasource-initialization: true
+    
+   sql: 
+      init:
+         mode: never       
